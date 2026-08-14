@@ -1,0 +1,59 @@
+# Muhammad Umair
+
+SEO Specialist, Web & App Developer, and AI-Assisted Builder based in Sahiwal, Pakistan.
+
+## Contact Info
+- **Email:** m.umair0314@gmail.com
+- **Phone:** +92 313-1786840
+- **Location:** Sahiwal, Pakistan
+- **LinkedIn:** https://www.linkedin.com/in/muhammad-umair-0a7b69125/
+- **Fiverr:** https://fiverr.com/hafizumair14
+
+## Profile Overview
+Muhammad Umair is a self-employed specialist with over 5 years of hands-on experience in off-page SEO, specializing in white-hat guest posting, outreach, and backlink audit campaigns. Over the past year, he has expanded his core expertise to technical audits, on-page SEO optimization, and local SEO (Google Business Profile setup and ranking).
+
+On the development side, he designs and ships websites and mobile applications using WordPress, Next.js, React, and Flutter. He specializes in combining core coding skills with AI-assisted "vibe coding" workflows (using tools like Cursor and Antigravity) to deploy production-ready applications rapidly.
+
+## Services Offered
+
+### 1. Off-Page SEO
+- White-hat link building, organic blogger outreach, and comprehensive backlink audits.
+- Strict anti-spam standards: absolutely no PBNs, link farms, or paid link schemes.
+- Guest posting campaigns, competitor backlink gap analysis, directory submissions, and local citations.
+
+### 2. On-Page & Technical SEO
+- Complete website audits to identify crawl errors, canonical tag bugs, and duplicate content/metadata.
+- Heading hierarchy corrections, internal link mapping, page title & meta descriptions optimization.
+- Technical speed optimizations for Core Web Vitals (mobile and desktop).
+
+### 3. Local SEO & Google Business Profile
+- Setting up, optimizing, and auditing Google Business Profiles (GMB/GBP).
+- Ensuring NAP (Name, Address, Phone) consistency across the web.
+- Writing geo-targeted local content and map pack optimization.
+
+### 4. WordPress Development
+- Building custom WordPress websites, custom themes, and custom plugins.
+- Handling site migrations, database optimization, and performance audits.
+
+### 5. Next.js & React Web Apps
+- Developing full-stack web applications utilizing Next.js (App Router), Supabase, PostgreSQL, and Tailwind CSS.
+- SaaS MVP development, payments integration (Stripe), and API integrations.
+
+### 6. Flutter Mobile App Development
+- Constructing native cross-platform mobile apps for Android and iOS using Flutter.
+- Fast prototyping and app store submission support.
+
+## Key Case Studies & Projects
+
+### Rotten Deck Repair
+- Rank-and-rent site built with WordPress (Kadence Theme) and Rank Math.
+- Shipped 47 pages across 12 releases with custom service schema, LocalBusiness schema, and FAQ schemas.
+
+### Fence Rockwall Texas
+- Local service site using Kadence. Shipped city-targeted landing pages optimized for search density, regional statutes, and mobile responsiveness.
+
+### FlagCreators
+- AI-powered flag design SaaS built on Next.js 14, Supabase, Stripe, and Gemini 2.5 Flash. Fully responsive custom drawing canvas, subscription webhooks, and print-on-demand APIs.
+
+### ReceiptsFaker
+- Online receipt generator tool. Optimized 18 store-specific landing pages. Took organic traffic from zero to 56,500+ clicks and 134,000+ impressions in 28 days on Search Console. Mobile page speed improved 54 to 78.
