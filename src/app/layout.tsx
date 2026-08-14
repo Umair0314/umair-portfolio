@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     description: "Specialist in off-page SEO link building and custom React/Next.js/Flutter application builds.",
     images: ["/umair.jpeg"],
   },
+  verification: {
+    google: "lIxDlzLi3W0Pu_z3_sDS31RZSAUqrevEnNxuSZP6SQk",
+  },
 };
 
 export default function RootLayout({
