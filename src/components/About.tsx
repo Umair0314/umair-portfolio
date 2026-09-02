@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
-import { Compass, Target, ArrowRight } from "lucide-react";
+import { Compass, Target, ArrowRight, Award } from "lucide-react";
 
 export default function About() {
   const [flippedMission, setFlippedMission] = useState(false);
@@ -30,7 +30,7 @@ export default function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Left Column: Image with shadow bloom */}
-          <div className="lg:col-span-5 flex justify-center">
+          <div className="lg:col-span-5 flex flex-col items-center justify-center space-y-8">
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
@@ -49,6 +49,21 @@ export default function About() {
                 priority
               />
             </motion.div>
+
+            {/* Certificate Button */}
+            <motion.a
+              href="/muhammad-umair_25.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="flex items-center space-x-2 px-6 py-3 bg-electric/10 border border-electric/40 rounded-full hover:bg-electric/20 hover:scale-105 transition-all text-white font-medium"
+            >
+              <Award className="w-5 h-5 text-electric-light" />
+              <span>View Semrush Certificate</span>
+            </motion.a>
           </div>
 
           {/* Right Column: Bio summary & Mission/Vision Flip Cards */}

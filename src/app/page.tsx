@@ -9,6 +9,7 @@ import Results from "@/components/Results";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Certificates from "@/components/Certificates";
 
 export default function Home() {
   const baseUrl = "https://muhammadumair.com";
@@ -202,6 +203,9 @@ export default function Home() {
 
         {/* About Me Section */}
         <About />
+
+        {/* Certificates Section */}
+        <Certificates />
 
         {/* Experience Section */}
         <Experience />

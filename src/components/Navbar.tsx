@@ -8,6 +8,7 @@ import Image from "next/image";
 const navItems = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
+  { label: "Certificates", id: "certificates" },
   { label: "Experience", id: "experience" },
   { label: "Services", id: "services" },
   { label: "Projects", id: "projects" },
