@@ -58,6 +58,10 @@ const services = [
         label: "Site Speed & Performance Optimization",
         description: "Image compression, caching, front-end cleanup, and PageSpeed uplift",
       },
+      {
+        label: "Keyword & Niche Research",
+        description: "Identifying high-intent, low-competition keywords to drive targeted organic traffic",
+      },
     ],
   },
   {
@@ -80,6 +84,10 @@ const services = [
       {
         label: "NAP Consistency & Location-Targeted Content",
         description: "Local citations, geo-targeted landing pages, and map pack optimization",
+      },
+      {
+        label: "Business Citations & Local SEO Link Building",
+        description: "Securing authoritative local directory listings and community-driven backlinks",
       },
     ],
   },

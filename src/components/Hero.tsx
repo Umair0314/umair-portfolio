@@ -151,7 +151,7 @@ export default function Hero() {
           >
             <p className="text-slate-200 font-medium">
               Want to become the absolute first choice in your local area and leave competitors behind? 
-              Tired of losing clients to inferior services simply because they have better digital visibility?
+              Tired of losing clients to inferior services simply because they have better digital visibility—not only on Google but also across LLMs, chatbots, AEO, and GEO?
             </p>
             <p>
               As a Business Growth Specialist, I don&apos;t just build websites or do basic SEO—I build digital 

@@ -49,32 +49,32 @@ function SkillBar({ name, value }: { name: string; value: number }) {
 
 const skillsCategories = [
   {
+    title: "Local SEO",
+    icon: MapPin,
+    skills: [
+      { name: "Google Business Profile", value: 96 },
+      { name: "NAP Consistency", value: 95 },
+      { name: "Local Content Strategy", value: 93 }
+    ]
+  },
+  {
     title: "Off-Page SEO",
     icon: Search,
     skills: [
-      { name: "Link Building", value: 92 },
-      { name: "Guest Posting & Outreach", value: 90 },
-      { name: "Backlink Analysis", value: 88 },
-      { name: "Directory Submissions", value: 85 }
+      { name: "Link Building", value: 95 },
+      { name: "Guest Posting & Outreach", value: 94 },
+      { name: "Backlink Analysis", value: 92 },
+      { name: "Directory Submissions", value: 91 }
     ]
   },
   {
     title: "On-Page & Technical SEO",
     icon: Globe,
     skills: [
-      { name: "Site Audits", value: 85 },
-      { name: "Schema Markup", value: 85 },
-      { name: "Core Web Vitals", value: 80 },
-      { name: "Keyword Research", value: 88 }
-    ]
-  },
-  {
-    title: "Local SEO",
-    icon: MapPin,
-    skills: [
-      { name: "Google Business Profile", value: 82 },
-      { name: "NAP Consistency", value: 85 },
-      { name: "Local Content Strategy", value: 80 }
+      { name: "Site Audits", value: 94 },
+      { name: "Schema Markup", value: 93 },
+      { name: "Core Web Vitals", value: 91 },
+      { name: "Keyword Research", value: 95 }
     ]
   },
   {

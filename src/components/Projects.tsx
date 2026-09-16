@@ -13,7 +13,7 @@ const projectsData = [
       "Complete schema implementation (LocalBusiness, WebPage, FAQPage, Service)",
       "Sitewide brand color migration executed via CSS overrides and direct content updates"
     ],
-    tech: ["WordPress", "Kadence Theme", "Rank Math Pro", "Royal MCP"],
+    tech: ["WordPress", "Kadence Theme", "Rank Math Pro"],
     link: null
   },
   {
@@ -25,31 +25,30 @@ const projectsData = [
       "Built out city/location landing page strategy from zero existing pages",
       "Applied 8th-grade readability score and cited real statutes for trust and E-E-A-T"
     ],
-    tech: ["WordPress", "Kadence Theme", "Rank Math", "Royal MCP"],
+    tech: ["WordPress", "Kadence Theme", "Rank Math"],
     link: null
   },
   {
-    title: "FlagCreators",
+    title: "Flag Creators",
     type: "Micro-SaaS Product · Built & Shipped",
     desc: "An AI-powered flag design micro-SaaS web app built on Next.js 14, enabling users to create flag designs using AI. The project spans from a custom drawing canvas to a subscription model and fulfillment print-on-demand webhooks.",
     outcomes: [
       "Built full-stack with Next.js, Supabase, Stripe, and Gemini 2.5 Flash",
-      "Shipped a 3-tier pricing model (Free / $2.99 / $4.99)",
       "Fixed canonical tag errors, meta duplication, and indexing issues post-launch"
     ],
     tech: ["Next.js 14", "Tailwind CSS", "Fabric.js", "Supabase", "Stripe", "Gemini 2.5 Flash", "Printful API"],
     link: null
   },
   {
-    title: "ReceiptsFaker",
-    type: "Owned SaaS Tool · Live",
+    title: "Receipt Faker",
+    type: "SaaS Tool · Live",
     desc: "A highly-optimized online receipt maker and generator tool featuring optimized landing pages targeting 18 popular stores. The tool and index structure was designed, developed, and optimized independently end-to-end to capture search demand.",
     outcomes: [
       "28-day GSC results: 56,500+ clicks and 134,000+ impressions",
       "Mobile Google PageSpeed score improved from 54 to 78",
       "Resolved complex canonical bugs and optimized 18 store-specific landing pages"
     ],
-    tech: ["WordPress", "Rank Math", "PageSpeed optimization", "Tailwind CSS"],
+    tech: ["Next.js 14", "Tailwind CSS", "Fabric.js", "Supabase", "Stripe", "Gemini 2.5 Flash", "Printful API"],
     link: null
   }
 ];
