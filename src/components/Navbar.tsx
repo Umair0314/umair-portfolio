@@ -144,7 +144,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className="fixed top-[72px] left-0 w-full z-45 bg-[#0B1F3A]/95 backdrop-blur-lg border-b border-electric/30 md:hidden flex flex-col px-6 py-8 space-y-4 shadow-xl"
+            className="fixed top-[72px] left-0 w-full z-40 max-h-[calc(100vh-72px)] overflow-y-auto bg-[#0B1F3A]/95 backdrop-blur-lg border-b border-electric/30 md:hidden flex flex-col px-6 py-8 space-y-4 shadow-xl"
           >
             {navItems.map((item) => (
               <button

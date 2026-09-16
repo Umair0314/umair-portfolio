@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, ArrowRight, ArrowDown } from "lucide-react";
+import { Mail, ArrowRight, ArrowDown, MapPin, Search, Link2 } from "lucide-react";
 
 // Custom LinkedIn icon SVG
 function LinkedinIcon({ className }: { className?: string }) {
@@ -87,7 +87,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-gradient-to-b from-navy-dark via-navy to-[#08172b]"
+      className="relative min-h-screen flex items-center justify-center pt-24 pb-32 overflow-hidden bg-gradient-to-b from-navy-dark via-navy to-[#08172b]"
     >
       {/* Visual background details */}
       <div className="absolute inset-0 z-0 overflow-hidden">
@@ -123,30 +123,44 @@ export default function Hero() {
           {/* Designations Banner */}
           <motion.p
             variants={itemVariants}
-            className="text-base sm:text-xl md:text-2xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-electric-light mb-8"
+            className="text-base sm:text-xl md:text-2xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-electric-light mb-4"
           >
-            SEO Specialist <span className="text-electric/70">|</span> Web & App Developer <span className="text-electric/70">|</span> AI-Assisted Builder
+            Business Growth Specialist <span className="text-electric/70">|</span> Web & App Developer <span className="text-electric/70">|</span> AI-Assisted Builder
           </motion.p>
+
+          {/* SEO Specializations */}
+          <motion.div
+            variants={itemVariants}
+            className="flex flex-wrap justify-center gap-3 mb-8"
+          >
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-sky-500/30 bg-sky-500/10 text-sky-300 text-xs sm:text-sm font-medium">
+              <MapPin className="w-4 h-4" /> Local SEO & GMB
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-xs sm:text-sm font-medium">
+              <Search className="w-4 h-4" /> On-Page SEO
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-300 text-xs sm:text-sm font-medium">
+              <Link2 className="w-4 h-4" /> Off-Page SEO
+            </span>
+          </motion.div>
 
           {/* Core Introduction Paragraph */}
           <motion.div
             variants={itemVariants}
             className="max-w-3xl mb-10 text-slate-300 text-sm sm:text-base md:text-lg leading-relaxed text-center space-y-4 px-2 sm:px-6"
           >
-            <p>
-              I&apos;m a freelance SEO specialist and web developer with 5+ years of hands-on
-              off-page SEO experience — link building, outreach, and backlink strategy that
-              actually moves rankings. Over the last year I expanded into on-page, technical,
-              and local SEO, running full-site audits and schema implementations that took one
-              of my own projects to{" "}
-              <strong className="text-white">56,500+ clicks</strong> and{" "}
-              <strong className="text-white">134,000+ impressions</strong> in 28 days.
+            <p className="text-slate-200 font-medium">
+              Want to become the absolute first choice in your local area and leave competitors behind? 
+              Tired of losing clients to inferior services simply because they have better digital visibility?
             </p>
             <p>
-              On the dev side, I build fast, modern web apps and WordPress sites using Next.js,
-              React, WordPress, and Flutter, using AI-assisted &quot;vibe coding&quot; workflows to ship
-              production apps far faster than traditional timelines. I own projects end to end —
-              from ranking strategy to the code that ships it.
+              As a Business Growth Specialist, I don&apos;t just build websites or do basic SEO—I build digital 
+              revenue engines. With over 5 years of hands-on expertise in local SEO, off-page strategies, 
+              and modern web development, I solve your visibility pain points from the ground up.
+            </p>
+            <p className="text-electric-light font-medium italic mt-4">
+              Why work with me? My goal is simple: to make your life more comfortable by significantly 
+              increasing your earnings, so you can focus on what you do best while I handle the growth.
             </p>
           </motion.div>
 
