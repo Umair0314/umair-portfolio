@@ -11,6 +11,9 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://muhammadumair.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
+  icons: {
+    icon: "/seo.png",
+  },
   title: "Muhammad Umair — SEO Expert & Web/App Developer | Off-Page, On-Page, Local SEO, Next.js, Flutter",
   description: "Looking for the best SEO expert? Muhammad Umair offers data-driven off-page SEO, technical on-page SEO audits, and local SEO services alongside modern web development. Hire a skilled Next.js developer, WordPress developer, and Flutter developer specialized in premium web app development and Android app development.",
   keywords: [
